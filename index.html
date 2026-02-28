@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Friedreich Ataksisi hakkında kapsamlı bilgi. Belirtiler, nedenler, teşhis ve tedavi yöntemleri. Kafes sağlık platformu ile hastalığı anlamak ve yönetmek için rehber.">
+    <meta name="keywords" content="Friedreich ataksisi, ataksi, nörolojik hastalık, genetik hastalık, denge bozukluğu, koordinasyon kaybı, frataksin, kalıtsal ataksi">
+    <meta name="author" content="Kafes">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Friedreich Ataksisi - Kafes Sağlık Rehberi">
+    <meta property="og:description" content="Friedreich Ataksisi hastalığını anlamak için kapsamlı rehber. Belirtiler, teşhis ve tedavi seçenekleri.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kafes.com.tr/friedreich-ataksisi">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Friedreich Ataksisi | Kafes Sağlık Rehberi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 10h40v40H10z" stroke="currentColor" stroke-width="2" fill="none"/>
+                    <path d="M20 10v40M30 10v40M40 10v40M10 20h40M10 30h40M10 40h40" stroke="currentColor" stroke-width="1.5"/>
+                    <circle cx="30" cy="30" r="5" fill="currentColor"/>
+                </svg>
+                <span class="logo-text">Kafes</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menüyü Aç/Kapat">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#nedir" class="nav-link">Nedir?</a></li>
+                <li><a href="#belirtiler" class="nav-link">Belirtiler</a></li>
+                <li><a href="#nedenler" class="nav-link">Nedenler</a></li>
+                <li><a href="#teshis" class="nav-link">Teşhis</a></li>
+                <li><a href="#tedavi" class="nav-link">Tedavi</a></li>
+                <li><a href="#yasam" class="nav-link">Yaşam</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="anasayfa">
+        <div class="hero-bg"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="pulse-dot"></span>
+                Sağlık Rehberi
+            </div>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                <span class="highlight">Friedreich Ataksisi</span>
+                <span class="subtitle">Hastalığını Anlamak ve Yönetmek</span>
+            </h1>
+            <p class="hero-description" data-animate="fade-up" data-delay="200">
+                Nadir görülen genetik bir nörolojik hastalık olan Friedreich ataksisini 
+                kolayca anlayabileceğiniz şekilde açıklıyor, belirtilerini ve tedavi 
+                seçeneklerini detaylıca inceliyoruz.
+            </p>
+            <div class="hero-stats" data-animate="fade-up" data-delay="300">
+                <div class="stat-item">
+                    <span class="stat-number">1/50.000</span>
+                    <span class="stat-label">Görülme Sıklığı</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">9. Kromozom</span>
+                    <span class="stat-label">Genetik Kaynak</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">5-15 Yaş</span>
+                    <span class="stat-label">Ortalama Başlangıç</span>
+                </div>
+            </div>
+            <div class="hero-cta" data-animate="fade-up" data-delay="400">
+                <a href="#nedir" class="btn btn-primary">
+                    <span>Keşfet</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M5 12l7 7 7-7"/>
+                    </svg>
+                </a>
+                <a href="#belirtiler" class="btn btn-secondary">Belirtileri İncele</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What is Friedreich Ataxia -->
+    <section class="section section-light" id="nedir">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Hastalık Hakkında</span>
+                <h2 class="section-title">Friedreich Ataksisi Nedir?</h2>
+                <p class="section-subtitle">
+                    Sinir sistemini etkileyen ilerleyici bir nörolojik bozukluk
+                </p>
+            </div>
+            
+            <div class="info-cards">
+                <div class="info-card" data-animate="fade-up" data-delay="100">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="24" cy="24" r="20"/>
+                            <path d="M24 14v10l7 7"/>
+                            <path d="M14 24h4M30 24h4M24 14v-4"/>
+                        </svg>
+                    </div>
+                    <h3>Tarihçe</h3>
+                    <p>
+                        Hastalık, 1863 yılında Alman doktor <strong>Nikolaus Friedreich</strong> tarafından 
+                        ilk kez tanımlanmıştır. O zamandan beri nöroloji alanında önemli araştırmalar 
+                        yapılmaktadır.
+                    </p>
+                </div>
+                
+                <div class="info-card highlight-card" data-animate="fade-up" data-delay="200">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M24 4v8M24 36v8M4 24h8M36 24h8"/>
+                            <circle cx="24" cy="24" r="8"/>
+                            <path d="M24 20v8M20 24h8"/>
+                        </svg>
+                    </div>
+                    <h3>Temel Özellik</h3>
+                    <p>
+                        <strong>Ataksi</strong>, kas gücü normal olmasına rağmen istemli hareketlerde 
+                        dengesizlik görülmesi demektir. Beyincik ve omurilikteki hasar nedeniyle 
+                        ortaya çıkar.
+                    </p>
+                </div>
+                
+                <div class="info-card" data-animate="fade-up" data-delay="300">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 40c0-6.627 5.373-12 12-12s12 5.373 12 12"/>
+                            <circle cx="24" cy="18" r="8"/>
+                            <path d="M18 16h2M28 16h2M22 22h4"/>
+                        </svg>
+                    </div>
+                    <h3>Kimleri Etkiler?</h3>
+                    <p>
+                        Hastalık genellikle <strong>5-15 yaş</strong> arasında başlar, nadiren 25 yaşından 
+                        sonra ortaya çıkabilir. Her iki cinsi de eşit oranda etkiler ve dünya genelinde 
+                        tüm etnik gruplarda görülebilir.
+                    </p>
+                </div>
+            </div>
+
+            <div class="explanation-box" data-animate="fade-up" data-delay="400">
+                <div class="explanation-visual">
+                    <div class="brain-animation">
+                        <div class="brain-center"></div>
+                        <div class="brain-waves">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="explanation-content">
+                    <h3>Nasıl Oluşur?</h3>
+                    <p>
+                        Friedreich ataksisi, <strong>frataksin proteini</strong> üreten genin mutasyona 
+                        uğraması sonucu ortaya çıkar. Bu protein, mitokondri (hücrelerin enerji 
+                        merkezleri) için hayati öneme sahiptir. Protein eksikliği, sinir hücrelerinin 
+                        yavaş yavaş hasar görmesine ve ölmesine neden olur.
+                    </p>
+                    <ul class="explanation-list">
+                        <li>
+                            <span class="check">✓</span>
+                            Öncelikle ayaklarda ve bacaklarda belirtiler başlar
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            Zamanla eller ve kollar da etkilenir
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            Kalp ve omurga problemleri gelişebilir
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Symptoms Section -->
+    <section class="section section-dark" id="belirtiler">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Belirtiler</span>
+                <h2 class="section-title">Hastalığın İşaretleri</h2>
+                <p class="section-subtitle">
+                    Erken teşhis için bilmeniz gereken belirtiler
+                </p>
+            </div>
+
+            <div class="symptoms-grid">
+                <div class="symptom-card" data-animate="slide-right" data-delay="100">
+                    <div class="symptom-number">01</div>
+                    <div class="symptom-content">
+                        <div class="symptom-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4L4 24l20 20 20-20L24 4z"/>
+                                <circle cx="24" cy="24" r="4"/>
+                            </svg>
+                        </div>
+                        <h3>Denge Kaybı</h3>
+                        <p>
+                            En yaygın ilk belirtidir. Yürürken sallanma, "sarhoş gibi yürüme" 
+                            tarzı görülür. Gözler kapalıyken denge daha da kötüleşir.
+                        </p>
+                        <span class="symptom-tag">Erken Belirti</span>
+                    </div>
+                </div>
+
+                <div class="symptom-card" data-animate="slide-right" data-delay="200">
+                    <div class="symptom-number">02</div>
+                    <div class="symptom-content">
+                        <div class="symptom-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4v40M12 16l12-12 12 12M12 32l12 12 12-12"/>
+                            </svg>
+                        </div>
+                        <h3>Koordinasyon Bozukluğu</h3>
+                        <p>
+                            El ve kol hareketlerinde kontrolsüzlük. Nesnelere uzanırken titreme 
+                            (intansiyonel tremor) görülebilir.
+                        </p>
+                        <span class="symptom-tag">İlerleyici</span>
+                    </div>
+                </div>
+
+                <div class="symptom-card" data-animate="slide-right" data-delay="300">
+                    <div class="symptom-number">03</div>
+                    <div class="symptom-content">
+                        <div class="symptom-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16"/>
+                                <circle cx="24" cy="16" r="10"/>
+                                <path d="M20 20l4-8 4 8"/>
+                            </svg>
+                        </div>
+                        <h3>Konuşma Bozukluğu</h3>
+                        <p>
+                            Konuşma yavaşlar, peltek ve patlayıcı bir tarz gelişebilir. 
+                            İleri evrelerde konuşma zorlaşabilir.
+                        </p>
+                        <span class="symptom-tag">Orta Evre</span>
+                    </div>
+                </div>
+
+                <div class="symptom-card" data-animate="slide-right" data-delay="400">
+                    <div class="symptom-number">04</div>
+                    <div class="symptom-content">
+                        <div class="symptom-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="24" cy="24" r="16"/>
+                                <circle cx="20" cy="22" r="2"/>
+                                <circle cx="28" cy="22" r="2"/>
+                                <path d="M20 30c2 2 6 2 8 0"/>
+                                <path d="M8 24h-4M44 24h-4"/>
+                            </svg>
+                        </div>
+                        <h3>Göz Hareketleri</h3>
+                        <p>
+                            <strong>Nistagmus:</strong> Gözlerin istemsiz olarak titreme hareketleri. 
+                            Görsel odaklanma güçlüğüne yol açabilir.
+                        </p>
+                        <span class="symptom-tag">Sık Görülen</span>
+                    </div>
+                </div>
+
+                <div class="symptom-card" data-animate="slide-right" data-delay="500">
+                    <div class="symptom-number">05</div>
+                    <div class="symptom-content">
+                        <div class="symptom-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4v8M24 36v8M4 24h8M36 24h8"/>
+                                <path d="M14 14l6 6M28 28l6 6M14 34l6-6M28 20l6-6"/>
+                            </svg>
+                        </div>
+                        <h3>Kas Güçsüzlüğü</h3>
+                        <p>
+                            Özellikle bacak ve ayaklarda kas erimesi. Yürüme mesafesi kısalır, 
+                            merdiven çıkmak zorlaşır.
+                        </p>
+                        <span class="symptom-tag">İlerleyici</span>
+                    </div>
+                </div>
+
+                <div class="symptom-card" data-animate="slide-right" data-delay="600">
+                    <div class="symptom-number">06</div>
+                    <div class="symptom-content">
+                        <div class="symptom-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4c-6 8-10 16-10 24s4.48 12 10 12 10-4.48 10-12-4-16-10-24z"/>
+                                <path d="M24 28v12"/>
+                                <circle cx="24" cy="22" r="4"/>
+                            </svg>
+                        </div>
+                        <h3>Kalp ve Diğer</h3>
+                        <p>
+                            Kalp yetmezliği riski (%50'den fazla), skolyoz (omurga eğriliği), 
+                            diyabet (%10) ve yutma güçlüğü görülebilir.
+                        </p>
+                        <span class="symptom-tag">Ciddi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="symptom-timeline" data-animate="fade-up">
+                <h3>Belirtilerin Zaman Çizelgesi</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">Başlangıç (5-15 yaş)</span>
+                            <p>Yürümede dengesizlik, sık düşme</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2-5 yıl sonra</span>
+                            <p>Kollar etkilenir, konuşma değişir</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">10-15 yıl sonra</span>
+                            <p>Tekerlekli sandalye gereksinimi</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">İleri evre</span>
+                            <p>Kalp komplikasyonları riski</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Causes Section -->
+    <section class="section section-gradient" id="nedenler">
+        <div class="container">
+            <div class="section-header light" data-animate="fade-up">
+                <span class="section-tag">Nedenler</span>
+                <h2 class="section-title">Hastalığın Kökeni</h2>
+                <p class="section-subtitle">
+                    Genetik geçiş ve kalıtım şekli
+                </p>
+            </div>
+
+            <div class="causes-content">
+                <div class="dna-visual" data-animate="scale" data-delay="100">
+                    <div class="dna-strand">
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                        <div class="dna-rung"></div>
+                    </div>
+                </div>
+
+                <div class="causes-info">
+                    <div class="cause-box" data-animate="fade-up" data-delay="200">
+                        <h3>Genetik Temel</h3>
+                        <p>
+                            Friedreich ataksisi, <strong>9. kromozomda</strong> bulunan 
+                            <strong>FXN genindeki</strong> bir mutasyon sonucu oluşur. Bu gen, 
+                            frataksin proteinini kodlar.
+                        </p>
+                    </div>
+
+                    <div class="inheritance-section" data-animate="fade-up" data-delay="300">
+                        <h3>Kalıtım Şekli</h3>
+                        <div class="inheritance-type">
+                            <span class="inheritance-badge">Otozomal Resesif</span>
+                        </div>
+                        <p>
+                            Hastalığın ortaya çıkması için <strong>her iki ebeveynden de</strong> 
+                            mutasyona uğramış genin aktarılması gerekir.
+                        </p>
+                        
+                        <div class="probability-chart">
+                            <div class="prob-item">
+                                <div class="prob-circle healthy">75%</div>
+                                <span>Sağlıklı Çocuk</span>
+                            </div>
+                            <div class="prob-item">
+                                <div class="prob-circle carrier">25%</div>
+                                <span>Hastalıklı</span>
+                            </div>
+                        </div>
+                        <p class="prob-note">
+                            Her iki ebeveyn de taşıyıcıysa, her hamilelikte çocuğun %25 olasılıkla 
+                            hastalıklı olma riski vardır.
+                        </p>
+                    </div>
+
+                    <div class="warning-box" data-animate="fade-up" data-delay="400">
+                        <div class="warning-icon">⚠</div>
+                        <div class="warning-content">
+                            <h4>Akraba Evliliği Riski</h4>
+                            <p>
+                                Friedreich ataksisi otozomal resesif geçişli olduğu için, 
+                                <strong>akraba evlilikleri</strong> hastalığın görülme olasılığını 
+                                önemli ölçüde artırır. Genetik danışmanlık önemlidir.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diagnosis Section -->
+    <section class="section section-light" id="teshis">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Teşhis</span>
+                <h2 class="section-title">Nasıl Tanı Konur?</h2>
+                <p class="section-subtitle">
+                    Teşhis sürecinde izlenen adımlar
+                </p>
+            </div>
+
+            <div class="diagnosis-steps">
+                <div class="step-card" data-animate="fade-up" data-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Klinik Değerlendirme</h3>
+                        <p>
+                            Nörolog, hastanın tıbbi geçmişini ve aile öyküsünü inceler. 
+                            Nörolojik muayene ile denge, refleks, kas gücü ve koordinasyon test edilir.
+                        </p>
+                        <ul class="step-checks">
+                            <li>Romberg testi (gözler kapalı durma testi)</li>
+                            <li>Refleks kontrolü (genellikle azalmış veya yok)</li>
+                            <li>Yürüme analizi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step-card" data-animate="fade-up" data-delay="200">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Görüntüleme</h3>
+                        <p>
+                            Beyin ve omurilik MR'ı ile yapısal anormallikler değerlendirilir. 
+                            Beyincikte incelme görülebilir.
+                        </p>
+                        <ul class="step-checks">
+                            <li>Beyin MR'ı</li>
+                            <li>Omurilik görüntüleme</li>
+                            <li>Kalp MR'ı (kardiyak tutulum için)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step-card" data-animate="fade-up" data-delay="300">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Elektrofizyolojik Testler</h3>
+                        <p>
+                            Sinir iletim hızları ölçülerek periferik sinirlerin durumu 
+                            değerlendirilir.
+                        </p>
+                        <ul class="step-checks">
+                            <li>EMG (Elektromiyografi)</li>
+                            <li>Sinir iletim çalışmaları</li>
+                            <li>EEG (gerektiğinde)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="step-arrow">→</div>
+
+                <div class="step-card highlight" data-animate="fade-up" data-delay="400">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Genetik Test</h3>
+                        <p>
+                            <strong>Kesin tanı</strong> için FXN genindeki GAA tekrarları 
+                            sayısına bakılır. Normalde 5-33 tekrar varken, hastalarda 66'dan 
+                            fazla tekrar bulunur.
+                        </p>
+                        <div class="test-result">
+                            <div class="result-item normal">
+                                <span>Normal: 5-33 tekrar</span>
+                            </div>
+                            <div class="result-item disease">
+                                <span>Hastalık: 66+ tekrar</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="early-diagnosis-banner" data-animate="fade-up">
+                <div class="banner-icon">
+                    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M24 4v8M24 36v8M4 24h8M36 24h8"/>
+                        <circle cx="24" cy="24" r="10"/>
+                        <path d="M24 18v12M18 24h12"/>
+                    </svg>
+                </div>
+                <div class="banner-content">
+                    <h3>Erken Teşhis Neden Önemli?</h3>
+                    <p>
+                        Erken tanı, hastalığın ilerlemesini yavaşlatmak ve komplikasyonları 
+                        önlemek için hayati önem taşır. Özellikle kalp sağlığının takibi ve 
+                        erken fizik tedavi büyük fark yaratır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatment Section -->
+    <section class="section section-cream" id="tedavi">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Tedavi</span>
+                <h2 class="section-title">Tedavi ve Yönetim</h2>
+                <p class="section-subtitle">
+                    Şu an için tam tedavi yok, ancak semptomlar yönetilebilir
+                </p>
+            </div>
+
+            <div class="treatment-grid">
+                <div class="treatment-card" data-animate="fade-up" data-delay="100">
+                    <div class="treatment-header">
+                        <div class="treatment-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M24 4c0 0-8 8-8 18s8 14 8 14s8-4 8-14s-8-18-8-18z"/>
+                                <circle cx="24" cy="22" r="4"/>
+                            </svg>
+                        </div>
+                        <h3>Fizik Tedavi</h3>
+                    </div>
+                    <p>
+                        Düzenli fizyoterapi, kas gücünü korumak, dengeyi geliştirmek ve 
+                        eklem sertliğini önlemek için en önemli tedavidir.
+                    </p>
+                    <ul class="treatment-list">
+                        <li>Denge egzersizleri</li>
+                        <li>Kas kuvvetlendirme</li>
+                        <li>Esneklik çalışmaları</li>
+                        <li>Yürüme eğitimi</li>
+                    </ul>
+                </div>
+
+                <div class="treatment-card" data-animate="fade-up" data-delay="200">
+                    <div class="treatment-header">
+                        <div class="treatment-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16"/>
+                                <circle cx="24" cy="16" r="10"/>
+                            </svg>
+                        </div>
+                        <h3>Konuşma Terapisi</h3>
+                    </div>
+                    <p>
+                        Dizartri (konuşma bozukluğu) için konuşma terapistleri yardımcı olabilir. 
+                        Yutma güçlüğü (disfaji) için özel teknikler öğretilir.
+                    </p>
+                    <ul class="treatment-list">
+                        <li>Konuşma egzersizleri</li>
+                        <li>Yutma teknikleri</li>
+                        <li>İletişim cihazları (gerektiğinde)</li>
+                    </ul>
+                </div>
+
+                <div class="treatment-card" data-animate="fade-up" data-delay="300">
+                    <div class="treatment-header">
+                        <div class="treatment-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="8" y="8" width="32" height="32" rx="4"/>
+                                <path d="M16 24h16M24 16v16"/>
+                            </svg>
+                        </div>
+                        <h3>Tıbbi Tedavi</h3>
+                    </div>
+                    <p>
+                        Belirtilere yönelik ilaçlar kullanılır. İdebenon gibi bazı ilaçlar 
+                        kalp fonksiyonlarını korumaya yardımcı olabilir.
+                    </p>
+                    <ul class="treatment-list">
+                        <li>Kas gevşeticiler</li>
+                        <li>Kalp destekleyicileri</li>
+                        <li>Ağrı yönetimi</li>
+                        <li>Diyabet tedavisi (varsa)</li>
+                    </ul>
+                </div>
+
+                <div class="treatment-card" data-animate="fade-up" data-delay="400">
+                    <div class="treatment-header">
+                        <div class="treatment-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="24" cy="24" r="20"/>
+                                <path d="M24 12v12l8 8"/>
+                            </svg>
+                        </div>
+                        <h3>Yardımcı Cihazlar</h3>
+                    </div>
+                    <p>
+                        Bağımsız hareket kabiliyetini korumak ve güvenliği artırmak için 
+                        çeşitli cihazlar kullanılır.
+                    </p>
+                    <ul class="treatment-list">
+                        <li>Baston ve yürüteçler</li>
+                        <li>Ortezler (ayak bileği destekleri)</li>
+                        <li>Tekerlekli sandalye (ilerleyen evrede)</li>
+                        <li>Ev düzenlemeleri</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="research-box" data-animate="fade-up">
+                <div class="research-content">
+                    <h3>🔬 Güncel Araştırmalar</h3>
+                    <p>
+                        Friedreich ataksisi için gen terapisi, kök hücre tedavisi ve frataksin 
+                        replasmanı üzerine dünya genelinde aktif araştırmalar devam etmektedir. 
+                        Klinik çalışmalara katılmak için doktorunuzla görüşebilirsiniz.
+                    </p>
+                    <div class="research-links">
+                        <a href="https://www.friedreichsataxia.org" target="_blank" rel="noopener" class="research-link">
+                            FARA (Küresel Araştırma Derneği)
+                        </a>
+                        <a href="https://www.clinicaltrials.gov" target="_blank" rel="noopener" class="research-link">
+                            Klinik Çalışmalar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality of Life Section -->
+    <section class="section section-green" id="yasam">
+        <div class="container">
+            <div class="section-header light" data-animate="fade-up">
+                <span class="section-tag">Yaşam Kalitesi</span>
+                <h2 class="section-title">Hastalıkla Yaşam</h2>
+                <p class="section-subtitle">
+                    Yaşam kalitesini artırmak için öneriler
+                </p>
+            </div>
+
+            <div class="life-tips">
+                <div class="tip-card" data-animate="fade-up" data-delay="100">
+                    <div class="tip-icon">🏃</div>
+                    <h3>Aktif Kalın</h3>
+                    <p>
+                        Mümkün olduğunca uzun süre aktif kalmaya çalışın. Yüzme ve su 
+                        aerobiği gibi düşük etkili egzersizler idealdir.
+                    </p>
+                </div>
+
+                <div class="tip-card" data-animate="fade-up" data-delay="200">
+                    <div class="tip-icon">🥗</div>
+                    <h3>Sağlıklı Beslenin</h3>
+                    <p>
+                        Kalp sağlığı için düşük tuzlu, dengeli bir diyet önemlidir. 
+                        Diyabet riskine karşı kan şekeri takibi yapılmalıdır.
+                    </p>
+                </div>
+
+                <div class="tip-card" data-animate="fade-up" data-delay="300">
+                    <div class="tip-icon">🧠</div>
+                    <h3>Zihinsel Sağlık</h3>
+                    <p>
+                        Depresyon ve anksiyete yaygındır. Psikolojik destek almak ve 
+                        destek gruplarına katılmak faydalıdır.
+                    </p>
+                </div>
+
+                <div class="tip-card" data-animate="fade-up" data-delay="400">
+                    <div class="tip-icon">👨‍👩‍👧</div>
+                    <h3>Aile Desteği</h3>
+                    <p>
+                        Aile üyelerinin hastalığı anlaması ve destek olması kritik öneme 
+                        sahiptir. Eğitim ve açık iletişim önemlidir.
+                    </p>
+                </div>
+
+                <div class="tip-card" data-animate="fade-up" data-delay="500">
+                    <div class="tip-icon">🏠</div>
+                    <h3>Evi Düzenleyin</h3>
+                    <p>
+                        Düşme riskini azaltmak için kaymayan zeminler, tutunma barları 
+                        ve geniş koridorlar düzenlenmelidir.
+                    </p>
+                </div>
+
+                <div class="tip-card" data-animate="fade-up" data-delay="600">
+                    <div class="tip-icon">📅</div>
+                    <h3>Düzenli Kontroller</h3>
+                    <p>
+                        Kalp sağlığı için düzenli kardiyoloji kontrolleri, fizik tedavi 
+                        ve diğer takipler aksatılmamalıdır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-light" id="sss">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">SSS</span>
+                <h2 class="section-title">Sık Sorulan Sorular</h2>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item" data-animate="fade-up" data-delay="100">
+                    <button class="faq-question">
+                        <span>Friedreich ataksisi tamamen iyileşir mi?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Maalesef şu an için tam bir tedavi bulunmamaktadır. Ancak semptomların 
+                            yönetimi ve yaşam kalitesinin artırılması mümkündür. Aktif araştırmalar 
+                            devam etmektedir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate="fade-up" data-delay="150">
+                    <button class="faq-question">
+                        <span>Hayat beklentisi nedir?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Erken başlangıçlı vakalarda ortalama yaşam süresi 35-40 yıldır. Ancak 
+                            kalp sorunlarının iyi yönetilmesi ve erken teşhis ile bu süre uzayabilir. 
+                            Geç başlangıçlı formlar genellikle daha hafif seyirlidir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate="fade-up" data-delay="200">
+                    <button class="faq-question">
+                        <span>Hamilelik mümkün mü?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Evet, hamilelik mümkündür ancak kalp durumu değerlendirilmeli ve 
+                            genetik danışmanlık alınmalıdır. Hamilelik bazı belirtileri 
+                            geçici olarak etkileyebilir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate="fade-up" data-delay="250">
+                    <button class="faq-question">
+                        <span>İş hayatına devam edilebilir mi?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Hastalığın evresine bağlı olarak değişir. Erken evrelerde birçok kişi 
+                            çalışmaya devam edebilir. Fiziksel gereksinimi az olan işler ve esnek 
+                            çalışma saatleri tercih edilmelidir.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-animate="fade-up" data-delay="300">
+                    <button class="faq-question">
+                        <span>Doğum öncesi tanı mümkün mü?</span>
+                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>
+                            Evet, genetik tanı konmuş ailelerde amniosentez veya koryonik villus 
+                            örneklemesi ile doğum öncesi tanı yapılabilir. Genetik danışmanlık 
+                            merkezleri bu konuda yardımcı olur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-animate="fade-up">
+                <h2>Daha Fazla Bilgiye mi İhtiyacınız Var?</h2>
+                <p>
+                    Bu site bilgilendirme amaçlıdır. Kesin tanı ve tedavi için mutlaka 
+                    bir nörolog veya genetik uzmana danışınız.
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://www.friedreichsataxia.org" target="_blank" rel="noopener" class="btn btn-primary">
+                        Küresel Kaynaklar
+                    </a>
+                    <a href="https://www.turkishneurology.org" target="_blank" rel="noopener" class="btn btn-outline">
+                        Türkiye Nöroloji Derneği
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <svg class="logo-icon" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 10h40v40H10z" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M20 10v40M30 10v40M40 10v40M10 20h40M10 30h40M10 40h40" stroke="currentColor" stroke-width="1.5"/>
+                            <circle cx="30" cy="30" r="5" fill="currentColor"/>
+                        </svg>
+                        <span class="logo-text">Kafes</span>
+                    </a>
+                    <p class="footer-desc">
+                        Sağlık bilgilerini herkes için erişilebilir ve anlaşılır hale getirmek 
+                        için çalışıyoruz.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Hızlı Bağlantılar</h4>
+                        <ul>
+                            <li><a href="#nedir">Hastalık Nedir?</a></li>
+                            <li><a href="#belirtiler">Belirtiler</a></li>
+                            <li><a href="#tedavi">Tedavi</a></li>
+                            <li><a href="#sss">SSS</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Kaynaklar</h4>
+                        <ul>
+                            <li><a href="https://www.friedreichsataxia.org" target="_blank" rel="noopener">FARA</a></li>
+                            <li><a href="https://www.ataxia.org" target="_blank" rel="noopener">NAAF</a></li>
+                            <li><a href="https://www.ninds.nih.gov" target="_blank" rel="noopener">NINDS</a></li>
+                            <li><a href="https://www.turkishneurology.org" target="_blank" rel="noopener">TND</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Kafes. Bilgilendirme amaçlıdır, tıbbi tavsiye yerine geçmez.</p>
+                <div class="footer-legal">
+                    <a href="#">Gizlilik Politikası</a>
+                    <a href="#">Kullanım Koşulları</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Yukarı dön">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
